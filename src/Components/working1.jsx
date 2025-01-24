@@ -1,5 +1,5 @@
 
-// import "./Styles/working.css"
+import "../Styles/working.css"
 
 function Working1(){
 

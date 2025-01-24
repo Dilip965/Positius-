@@ -1,0 +1,57 @@
+.team-container {
+    margin-top: 140px;
+    display: flex;
+    align-items: center;
+   
+    padding: 5px; 
+    margin-bottom: 85px;
+  
+    margin-left:35px;
+  
+  }
+  
+  .team-container-title {
+    background-color: #b4ff88; 
+    padding: 5px 20px; 
+    font-weight: bold;
+   
+    margin-left:100px; 
+    color: #000; 
+    font-size: 25px;
+  
+  }
+  
+  .team-containers-text {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #000; 
+    line-height: 1.5; 
+    position: relative;
+    left:20px
+  }
+  
+  
+  .team-grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: white;
+    padding: 10px;
+  }
+  
+  .team-grid-item {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 15px;
+    margin: 40px;
+    text-align: center;
+    border-radius: 45px;
+  
+  }
+  
+  .team-info-card {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #FFFFFF;
+    flex: auto;
+    grid-area: 0px;
+  }
