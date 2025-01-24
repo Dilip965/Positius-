@@ -1,0 +1,30 @@
+.Working-container {
+    margin-top: 140px;
+    display: flex;
+  
+   margin-bottom: 80px;
+  
+    padding: 5px; 
+    margin-left: 90px;
+  
+  }
+  
+  .Working-container-title {
+    background-color: #b4ff88; 
+    padding: 5px 20px; 
+    font-weight: bold;
+   
+    margin-left:25px; 
+    color: #000; 
+    font-size: 25px;
+  
+  }
+  
+  .Working-containers-text {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #000; 
+    line-height: 1.5; 
+    position: relative;
+    left:20px
+  }

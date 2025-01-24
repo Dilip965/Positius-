@@ -1,0 +1,102 @@
+.case-study-container{
+    margin-top: 140px;
+    display: flex;
+    align-items: center;
+   
+    padding: 5px; 
+    margin-bottom: 140px;
+  
+  }
+  
+  .case-study-title {
+    background-color: #b4ff88; 
+    padding: 5px 20px; 
+    font-weight: bold;
+   
+    margin-left:100px; 
+    color: #000; 
+    font-size: 25px;
+  
+  }
+  
+  .case-study-text {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #000; 
+    line-height: 1.5; 
+    position: relative;
+    left:20px
+  }
+  
+  
+  .casegrid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: black;
+    border-radius: 45px;
+    
+    padding: 10px;
+    margin: 100px;
+  }
+  .grid-item {
+   
+    
+    padding: 20px;
+  
+    
+    text-align: center;
+  }
+  .grid-item p{
+    color: white;
+    text-size-adjust: 12px;
+  }
+  .grid-item a{
+    color:#B9FF66;
+  }
+  
+  .caseone{
+  
+    border-right: 1px solid #dddddd;
+  }
+  
+  
+  .inside-div2{
+  
+    border-right: 1px solid #dddddd;
+  }
+  .inside-div3{
+  
+    border-right: 1px solid #dddddd;
+  }
+  
+  .casegrid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: black;
+    border-radius: 45px;
+    padding: 10px;
+    margin: 100px;
+  }
+  
+  .grid-item {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .grid-item p {
+    color: white;
+    font-size: 12px; /* Corrected property name */
+  }
+  
+  .grid-item a {
+    color: #B9FF66;
+  }
+  
+  .item-one .content-one {
+    border-right: 1px solid #dddddd;
+  }
+  
+  .item-two .content-two {
+    border-right: 1px solid #dddddd;
+  }
+  

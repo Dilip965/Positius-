@@ -1,0 +1,81 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:220px;
+    gap: 30px;
+    margin: 100px;
+  }
+  
+  /* .first {
+    grid-column: span 2;
+  } */
+  
+  .card {
+    background-color: blue;
+    border-radius: 45px;
+  }
+  
+  .first.card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left:40px;
+    padding-right:40px;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+  
+  .images {
+    width: 200px;
+    height: auto;
+  }
+  
+  .one{
+  
+    background-color: #F3F3F3;
+  }
+  
+  .two{
+    background-color: #B9FF66;
+  }
+  .three{
+    background-color:#191A23 ;
+  }
+  .four{
+  
+    background-color: #F3F3F3;
+  }
+  .five{
+    background-color: #B9FF66;
+  }
+  .six{
+    background-color: #191A23;
+  }
+  .search{
+  
+    background-color: #B9FF66;
+    font-size:1.5rem;
+    padding:0;
+  }
+  .pay{
+  
+    background-color: white;
+  }
+  .social{
+  
+    background-color: white;
+  }
+  .email{
+    background-color: #B9FF66;
+  }
+  
+  .Analytics{
+    background-color: #B9FF66;
+  }
+  
+  
