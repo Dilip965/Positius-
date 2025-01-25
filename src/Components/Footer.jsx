@@ -1,4 +1,7 @@
 import "../Styles/footer.css"
+import linkdine  from "../assets/linkdine.png"
+import facebook from "../assets/facebook.png"
+import twitter from "../assets/twitter.png"
 function Footer() {
     return (
       <>
