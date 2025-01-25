@@ -1,4 +1,5 @@
 import "../Styles/Hero.css";
+import illu from "../assets/Illustration.png"
 
 function Hero(){
 
@@ -16,7 +17,7 @@ function Hero(){
       <button class="consult-btn">Book a Consultation</button>
     </div>
     <div class="hero-image">
-      <img src="illustration.png" alt="Digital Marketing Illustration"/>
+      <img src={illu} alt="Digital Marketing Illustration"/>
     </div>
   </main>
         </>

@@ -1,16 +1,26 @@
 import React from "react";
-import "../Styles/Teammate.css"
+import "../Styles/Teammate.css";
+
+
+import john from "../assets/johansmith.png";
+import social from "../assets/social.png";
+import janeDoe from "../assets/jane_doe.png"; 
+import michaelBrown from "../assets/mic.png"
+import emilyJohnson from "../assets/emily.png"; 
+import brianWilliams from "../assets/brian.png"; 
+import sarahKim from "../assets/sarah.png"; 
 
 function Teammate() {
   return (
     <>
       <div className="team-grid-container">
+        {/* Card 1 */}
         <div className="team-grid-item">
           <div className="team-info-card">
             <img
               className="team-images-info-card"
-              src="photo/johansmith.png"
-              alt="Profile Picture"
+              src={john}
+              alt="John Smith"
             />
             <div className="team-header-section">
               <h4>John Smith</h4>
@@ -18,7 +28,7 @@ function Teammate() {
             </div>
             <img
               className="team-logo-info-card"
-              src="photo/Social icon.png"
+              src={social}
               alt="Social Media Icon"
             />
             <hr />
@@ -30,12 +40,14 @@ function Teammate() {
             <br /> PPC, and content strategy
           </p>
         </div>
+
+     
         <div className="team-grid-item">
           <div className="team-info-card">
             <img
               className="team-images-info-card"
-              src="photo/jane doe.png"
-              alt="Profile Picture"
+              src={janeDoe}
+              alt="Jane Doe"
             />
             <div className="team-header-section">
               <h4>Jane Doe</h4>
@@ -43,7 +55,7 @@ function Teammate() {
             </div>
             <img
               className="team-logo-info-card"
-              src="photo/Social icon.png"
+              src={social}
               alt="Social Media Icon"
             />
             <hr />
@@ -56,12 +68,14 @@ function Teammate() {
             communication skills
           </p>
         </div>
+
+    
         <div className="team-grid-item">
           <div className="team-info-card">
             <img
               className="team-images-info-card"
-              src="photo/michealbrown.png"
-              alt="Profile Picture"
+              src={michaelBrown}
+              alt="Michael Brown"
             />
             <div className="team-header-section">
               <h4>Michael Brown</h4>
@@ -69,7 +83,7 @@ function Teammate() {
             </div>
             <img
               className="team-logo-info-card"
-              src="photo/Social icon.png"
+              src={social}
               alt="Social Media Icon"
             />
             <hr />
@@ -82,12 +96,14 @@ function Teammate() {
             optimization
           </p>
         </div>
+
+      
         <div className="team-grid-item">
           <div className="team-info-card">
             <img
               className="team-images-info-card"
-              src="photo/emilyjohanson.png"
-              alt="Profile Picture"
+              src={emilyJohnson}
+              alt="Emily Johnson"
             />
             <div className="team-header-section">
               <h4>Emily Johnson</h4>
@@ -95,7 +111,7 @@ function Teammate() {
             </div>
             <img
               className="team-logo-info-card"
-              src="photo/Social icon.png"
+              src={social}
               alt="Social Media Icon"
             />
             <hr />
@@ -108,12 +124,14 @@ function Teammate() {
             performance analysis
           </p>
         </div>
+
+      
         <div className="team-grid-item">
           <div className="team-info-card">
             <img
               className="team-images-info-card"
-              src="photo/brian.png"
-              alt="Profile Picture"
+              src={brianWilliams}
+              alt="Brian Williams"
             />
             <div className="team-header-section">
               <h4>Brian Williams</h4>
@@ -121,7 +139,7 @@ function Teammate() {
             </div>
             <img
               className="team-logo-info-card"
-              src="photo/Social icon.png"
+              src={social}
               alt="Social Media Icon"
             />
             <hr />
@@ -136,12 +154,14 @@ function Teammate() {
             engagement
           </p>
         </div>
+
+     
         <div className="team-grid-item">
           <div className="team-info-card">
             <img
               className="team-images-info-card"
-              src="photo/sarah.png"
-              alt="Profile Picture"
+              src={sarahKim}
+              alt="Sarah Kim"
             />
             <div className="team-header-section">
               <h4>Sarah Kim</h4>
@@ -149,7 +169,7 @@ function Teammate() {
             </div>
             <img
               className="team-logo-info-card"
-              src="photo/Social icon.png"
+              src={social}
               alt="Social Media Icon"
             />
             <hr />

@@ -1,11 +1,11 @@
 import "../Styles/Navbar.css"
-
+import logo from "../assets/logo.png"
 function Navbar(){
     return(
 
         <>
         <header class="navbar">
-    <div class="logo"><img class="one" src="photo/logo.png" alt=""/>Positivus</div>
+    <div class="logo"><img class="one" src={logo} alt=""/>Positivus</div>
     <nav>
       <ul class="nav-links">
         <li><a href="pages/about-us.html">About Us</a></li>

@@ -1,5 +1,6 @@
 
 import "../Styles/proposal.css"
+import ok from "../assets/ok.png"
 
 function Proposal(){
 
@@ -19,7 +20,7 @@ function Proposal(){
 </div>
 
   <div class="secondc">
-     <img src="ok.png" alt=""/>
+     <img src={ok} alt=""/>
   </div>
 
  </div>

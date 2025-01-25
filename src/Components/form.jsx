@@ -1,5 +1,6 @@
 import React from "react";
 import "../Styles/from.css"
+import contact from "../assets/contactus.png"
 function ContactForm() {
   return (
     <>
@@ -64,7 +65,7 @@ function ContactForm() {
           </div>
         </div>
         <div className="image-contact">
-          <img src="photo/contactus.png" alt="Contact Us" />
+          <img src={contact} alt="Contact Us" />
         </div>
       </div>
     </>

@@ -1,6 +1,8 @@
 
 import "../Styles/Accordian.css"
 import "../script/Accordian.js"
+
+
 function Accordian(){
 
     return(
