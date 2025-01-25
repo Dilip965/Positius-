@@ -1,7 +1,8 @@
 import "../Styles/footer.css"
-import linkdine  from "../assets/linkdine.png"
+import linkdine  from "../assets/LINKDINE.png"
+// import facebook from "../assets/FACEBOOk.png"
+import twitter from "../assets/TWITTER.png"
 import facebook from "../assets/facebook.png"
-import twitter from "../assets/twitter.png"
 function Footer() {
     return (
       <>
@@ -20,9 +21,9 @@ function Footer() {
                 <a href="pages/blog.html">Blog</a>
               </nav>
               <div className="footer-social-icons">
-                <img src="photo/LINKDINE.png" alt="LinkedIn" />
-                <img src="photo/FACEBOOK.png" alt="Facebook" />
-                <img src="photo/TWITTER.png" alt="Twitter" />
+                <img src={linkdine} alt="LinkedIn" />
+                <img src={facebook} alt="Facebook" />
+                <img src={twitter} alt="Twitter" />
               </div>
             </div>
           </header>
